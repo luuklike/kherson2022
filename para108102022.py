@@ -1,3 +1,4 @@
-i = 2
 for i in line:
-    print(i*2)
+    for j in range(1, 11):
+        print(i * j, end='\t')
+    print()
