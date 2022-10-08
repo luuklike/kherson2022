@@ -1,0 +1,1 @@
+print("Anyone who\nstops\n  learing is old,\n    whatever at twenty or eighty" )
