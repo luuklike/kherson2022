@@ -13,7 +13,7 @@ while True:
         if c == -0:
             print("Ти шо, тютю? Яке -0? Постав нормальну змінну с")
         elif D < 0:
-            print("Помилка. Результат менше 0")
+            print("Результат менше 0")
         elif D > 0:
             x1 = (-b + pashalox.sqrt(D))/(2*a)
             x2 = (-b - pashalox.sqrt(D))/(2*a)
