@@ -18,3 +18,8 @@ ls = ['Milk', 'Water', 'Coffee']
 print(*ls)
 ls.append("Bread")
 print(*ls)
+ls.sort()
+test = ['Apple', 'Banana']
+ls.extend(test)
+ls.reverse()
+print(*ls)
