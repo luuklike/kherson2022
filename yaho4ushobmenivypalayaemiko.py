@@ -1,4 +1,4 @@
-ls = [4, 2, 6, 8, 1, 9, 12]
+#ls = [4, 2, 6, 8, 1, 9, 12]
 #for i in ls:
     #print(i, end='')
 
@@ -13,4 +13,8 @@ ls = [4, 2, 6, 8, 1, 9, 12]
     #print(ls[i])
 #ls[start:end:step]
 #print(type(ls[2:5]))
-print(ls[2::2])
+#print(ls[2::2])
+ls = ['Milk', 'Water', 'Coffee']
+print(*ls)
+ls.append("Bread")
+print(*ls)
