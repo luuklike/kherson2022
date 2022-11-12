@@ -53,10 +53,10 @@ for n in range(len(aliexpress)):
         res2 += aliexpress[n]
 
 for m in range(len(aliexpress)):
-    max = 0
-    max = max(aliexpress)
-    min = 0
-    min = min(aliexpress)
+    macs = 0
+    macs = max(aliexpress)
+    meen = 0
+    meen = min(aliexpress)
     res1 *= aliexpress[m]
 print(sumpair)
 print(sumnonpair)
